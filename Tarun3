@@ -1,35 +1,30 @@
 import java.util.Scanner;
-    
-class Book {
+
+class Book{
     private String name;
     private String author;
     private double price;
-    private int num_pages;
+    private int numPages;
 
-    public Book(String name, String author, double price, int num_pages) {
+    public Book(String name, String author, double price, int numPages){
         this.name = name;
         this.author = author;
         this.price = price;
-        this.num_pages = num_pages;
+        this.numPages = numPages;                                                                                                                                                                                                                                                                                                                                                                                        
     }
-
-    public String getName() {
+    public String getName(){
         return name;
     }
-
-    public String getAuthor() {
+    public String getauthor(){
         return author;
     }
-
-    public double getPrice() {
+    public double getprice(){
         return price;
     }
-
-    public int getNumPages() {
+    public int num_Pages(){
         return num_pages;
     }
-
-    public void setName(String name) {
+     public void setName(String name) {
         this.name = name;
     }
 
@@ -88,6 +83,5 @@ public class BookObjects {
         }
 
         sc.close();
-    }
-  
+    }                                          
 }

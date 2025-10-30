@@ -6,6 +6,7 @@ class Book {
     private double price;
     private int num_pages;
 
+    // Constructor
     public Book(String name, String author, double price, int num_pages) {
         this.name = name;
         this.author = author;
@@ -13,6 +14,7 @@ class Book {
         this.num_pages = num_pages;
     }
 
+    // Getters
     public String getName() {
         return name;
     }
@@ -29,6 +31,7 @@ class Book {
         return num_pages;
     }
 
+    // Setters
     public void setName(String name) {
         this.name = name;
     }
@@ -44,7 +47,8 @@ class Book {
     public void setNumPages(int num_pages) {
         this.num_pages = num_pages;
     }
-     
+
+    // toString method to display book details
     @Override
     public String toString() {
         return "Book Name: " + name + "\nAuthor: " + author + 
